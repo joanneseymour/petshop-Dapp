@@ -1,4 +1,5 @@
-[
+"contractName" = "Adoption",
+ "abi": [
   {
     "id": 0,
     "name": "Frieda",
