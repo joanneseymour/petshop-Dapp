@@ -12,8 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync start --server \"src\" --files \"src/**\"",
     "start2": "http-server --cors",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm install",
+    "deploy": "gh-pages -d"
   },
   "author": "",
   "license": "ISC",
