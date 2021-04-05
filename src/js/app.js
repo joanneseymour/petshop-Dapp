@@ -4,12 +4,12 @@ App = {
 
   init: function() {
     // Load pets.
-    $.getJSON('./pets.json', function(data) {
+    $.getJSON('src/pets.json', function(data) {
       console.log(data.abi);
       var petsRow = $('#petsRow');
       var petTemplate = $('#petTemplate');
       
-      for (i = 0; i < data.length; i ++) {
+      for (i = 0; i < data.abi.length; i ++) {
         petTemplate.find('.panel-title').text(data.abi[i].name);
         petTemplate.find('img').attr('src', data.abi[i].picture);
         petTemplate.find('.pet-breed').text(data.abi[i].breed);
