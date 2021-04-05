@@ -1,3 +1,5 @@
+// "SPDX-License-Identifier: <SPDX-License>"
+
 App = {
   web3Provider: null,
   contracts: {},
